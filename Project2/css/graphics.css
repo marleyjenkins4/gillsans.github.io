@@ -1,0 +1,924 @@
+/***body{
+    
+}
+
+
+.content{
+
+    position: relative;
+    display:flex;
+
+    background: url(../images/graphicpage/background.svg);
+   background-repeat: no-repeat;
+    background-size:cover;
+    flex-shrink: 0;
+    width: 100vw;
+    height:140vh;
+
+
+
+padding-bottom: calc(90% * 3 / 4);
+
+}
+
+
+
+.g{
+
+    position: absolute;
+    display:flex;
+    flex-shrink: 0;
+    width: 468.76px;
+    height: 1146px;
+    left: 35.65px;
+    top: -333px;
+    overflow:-moz-hidden-unscrollable;
+    font-family: Gill Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 990px;
+    font-size:100vw;
+    line-height: 1146px;
+    
+    color: #CF142B;
+    
+    transform: rotate(0.18deg);
+ 
+}
+
+.where{
+    position: absolute;
+    width: 20%;
+    height: 76px;
+    left: 800px;
+    top: 258px;
+}
+.wheres{
+    font-family: Gill Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    font-size:2vw;
+    line-height: 36px;
+    
+    color: #00247D; 
+}
+.shaping{
+
+    position: absolute;
+    display: flex;
+    flex-shrink: 0;
+    background: url(../images/graphicpage/Rectangle_top.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    left: 400px;
+
+  padding-bottom: calc(90% * 3 / 4);
+
+}
+
+.g_{
+    position:absolute; 
+    background: url(../images/graphicpage/Rectangle_g.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width:50%;
+left:700px;
+top:25px;
+
+padding-bottom: calc(90% * 3 / 4);
+
+}
+.raphics{
+    display:flex;
+    position: relative;
+
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+font-size:8vw;
+line-height: 119px;
+ left:850px;
+ padding:60px 60px 60px;
+ margin:60px;
+ top:-1020px;
+color: blackF;
+}
+
+:root {
+    --mainColor: white;
+  }
+   a {
+    color: var(--mainColor);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: transparent;
+    text-decoration: none;
+    -webkit-text-stroke: 2px var(--mainColor);
+  }
+  
+  @supports not(-webkit-text-stroke: 2px red) {
+    a:hover {
+      text-shadow:
+        3px 3px 0 var(--mainColor),
+        -1px -1px 0 var(--mainColor),
+        1px -1px 0 var(--mainColor),
+        -1px 1px 0 var(--mainColor),
+        1px 1px 0 var(--mainColor);
+    }
+  }
+*/
+body{
+    
+
+        background: url(../images/desktop/graphics.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+  padding-bottom:100px;
+
+    
+}
+.g{
+    background: url(../images/desktop/g.svg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    position: absolute;
+width: 50%;
+height: 1146px;
+left: -60px;
+top:30px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 990px;
+
+
+color: #CF142B;
+}
+.g_{
+    background: url(../images/desktop/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: absolute;
+ 
+    width: 499px;
+    height: 139px;
+    left: 584px;
+    top: 30px;
+font-family: Gill Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 119px;
+
+color: #FFFFFF;
+}
+.wheres{
+    position: absolute;
+width: 245px;
+height: 76px;
+left: 550px;
+top: 214px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #00247D;
+}
+
+.desc_content{
+    position: absolute;
+width: 419px;
+height: 164px;
+left: 534px;
+top: 299px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #00247D;
+}
+#linkback{
+    position: absolute;
+width: 64px;
+height: 17px;
+left: 680px;
+top: 608px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 23px;
+
+color: #00247D;
+}
+#link1{
+    position: absolute;
+    width: 245px;
+    height: 19px;
+    left: 725px;
+    top: 620px;
+    
+    font-family: Gill Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    
+    color: #00247D;
+}
+#link2{
+    position: absolute;
+width: 110px;
+height: 19px;
+left: 805px;
+top: 607px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 23px;
+
+color: #00247D;
+
+}
+:root {
+    --mainColor:  #00247D;
+  }
+   a {
+    color: var(--mainColor);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: transparent;
+    text-decoration: none;
+    -webkit-text-stroke: 2px var(--mainColor);
+  }
+  
+  @supports not(-webkit-text-stroke: 2px red) {
+    a:hover {
+      text-shadow:
+        3px 3px 0 var(--mainColor),
+        -1px -1px 0 var(--mainColor),
+        1px -1px 0 var(--mainColor),
+        -1px 1px 0 var(--mainColor),
+        1px 1px 0 var(--mainColor);
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****** FOR MININMIZED BROWSER****/
+
+
+@media screen and (max-width:800px) {
+    
+    body{
+        background: url(../images/mobile/graphics.png);
+        background-repeat: no-repeat;
+        background-size: cover; ;
+  
+    }
+  
+         .g{
+            position: absolute;
+            width: 100%;
+        
+            left: -80px;
+            top:350px;
+            
+            font-family: Gill Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 700px;
+            line-height: 1146px;
+            
+            color: #CF142B;
+            
+            transform: rotate(0.18deg);
+  
+         }
+         .g_{
+          background: url(../images/mobile/Rectangle\ .svg);
+          background-repeat: no-repeat;
+  
+          position: absolute;
+          width: 50%;
+          height:15vh;
+          left: 320px;
+          top: 350px;
+          
+          background: #CF142B;
+          font-family: Gill Sans;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 45px;
+          line-height: 100px;
+
+          color: #FFFFFF;
+          
+         }
+         .wheres{
+  
+position: absolute;
+width: 30%;
+height: 76px;
+left: 300px;
+top: 580px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
+
+color: #00247D;
+          
+         }
+       
+     
+         .desc_content{
+          position: absolute;
+          width: 213px;
+          height: 79px;
+          left: 240px;
+          top: 630px;
+          
+          font-family: Gill Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+     
+          color: #00247D;
+         }
+   
+  
+     #linkback{
+      position: absolute;
+      width: 48px;
+      height: 21px;
+      left: 26px;
+      top: 293px;
+      
+      font-family: Gill Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 17px;
+      
+      color: #00247D;
+      
+     }
+     #link1{
+      position: absolute;
+      width: 550px;
+      height: 21px;
+      left: 60px;
+      top: 293px;
+      
+      font-family: Gill Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 17px;
+      
+      color: #00247D;
+      
+     }
+     #link2{
+      position: absolute;
+      width: 550px;
+      height: 21px;
+      left: 126px;
+      top: 293px;
+      
+      font-family: Gill Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 17px;
+      
+      color: #00247D;
+     }
+   
+        
+     :root {
+            --mainColor: color: #00247D;
+          }
+           a {
+            color: var(--mainColor);
+            text-decoration: none;
+          }
+          
+          a:hover {
+            color: transparent;
+            text-decoration: none;
+            -webkit-text-stroke: 2px var(--mainColor);
+          }
+          
+          @supports not(-webkit-text-stroke: 2px red) {
+            a:hover {
+              text-shadow:
+                3px 3px 0 var(--mainColor),
+                -1px -1px 0 var(--mainColor),
+                1px -1px 0 var(--mainColor),
+                -1px 1px 0 var(--mainColor),
+                1px 1px 0 var(--mainColor);
+            }
+          }
+  
+  
+  }
+  /* ----------- iPhone X ----------- */
+  
+  
+  
+  
+    
+  @media only screen 
+      and (device-width : 375px) 
+      and (device-height : 812px) 
+      and (-webkit-device-pixel-ratio : 3) {
+  body{
+      background: url(../images/mobile/graphics.png);
+      background-repeat: no-repeat;
+      background-size: cover; ;
+
+  }
+
+       .g_{
+        background: url(../images/mobile/Rectangle\ .svg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+width: 159px;
+height: 55px;
+left: 216px;
+top: 322px;
+font-family: Gill Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+padding:10px;
+color: #FFFFFF;
+
+       }
+       .wheres{
+        position: absolute;
+        width: 138px;
+        height: 76px;
+        left: 203px;
+        top: 387px;
+        
+        font-family: Gill Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #00247D;
+        
+       }
+       .white{
+        color: white;
+       }
+       .desc_content{
+        position: absolute;
+        width: 213px;
+        height: 79px;
+        left: 140px;
+        top: 470px;
+        
+        font-family: Gill Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 11px;
+        
+        color: #00247D;
+       }
+ 
+   .white{
+       color:white;
+   }
+   #linkback{
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 26px;
+    top: 293px;
+    
+    font-family: Gill Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #00247D;
+    
+   }
+   #link1{
+    position: absolute;
+    width: 550px;
+    height: 21px;
+    left: 60px;
+    top: 293px;
+    
+    font-family: Gill Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #00247D;
+    
+   }
+   #link2{
+    position: absolute;
+    width: 550px;
+    height: 21px;
+    left: 126px;
+    top: 293px;
+    
+    font-family: Gill Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #00247D;
+   }
+ 
+      
+   :root {
+          --mainColor: color: #00247D;
+        }
+         a {
+          color: var(--mainColor);
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: transparent;
+          text-decoration: none;
+          -webkit-text-stroke: 2px var(--mainColor);
+        }
+        
+        @supports not(-webkit-text-stroke: 2px red) {
+          a:hover {
+            text-shadow:
+              3px 3px 0 var(--mainColor),
+              -1px -1px 0 var(--mainColor),
+              1px -1px 0 var(--mainColor),
+              -1px 1px 0 var(--mainColor),
+              1px 1px 0 var(--mainColor);
+          }
+        }
+  
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+
+      body{
+        background: url(../images/mobile/graphics.png);
+        background-repeat: no-repeat;
+        background-size: cover; ;
+  
+    }
+  
+         .g{
+          background: url(../images/mobile/g.svg);
+          background-repeat: no-repeat;
+          position: absolute;
+           background-size: cover; 
+  width: 470.6px;
+  height: 580.49px;
+  left: -60px;
+  top: 110px;
+  
+         }
+         .g_{
+          background: url(../images/mobile/Rectangle\ .svg);
+          background-repeat: no-repeat;
+  
+          position: absolute;
+  width: 159px;
+  height: 55px;
+  left: 216px;
+  top: 322px;
+  font-family: Gill Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  padding:10px;
+  color: #FFFFFF;
+  
+         }
+         .wheres{
+          position: absolute;
+          width: 138px;
+          height: 76px;
+          left: 203px;
+          top: 387px;
+          
+          font-family: Gill Sans;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          
+          color: #00247D;
+          
+         }
+         .white{
+          color: white;
+         }
+         .desc_content{
+          position: absolute;
+          width: 213px;
+          height: 79px;
+          left: 140px;
+          top: 470px;
+          
+          font-family: Gill Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 11px;
+          
+          color: #00247D;
+         }
+         #linkback{
+            position: absolute;
+            width: 48px;
+            height: 21px;
+            left: 26px;
+            top: 293px;
+            
+            font-family: Gill Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 17px;
+            
+            color: #00247D;
+            
+           }
+           #link1{
+            position: absolute;
+            width: 550px;
+            height: 21px;
+            left: 60px;
+            top: 293px;
+            
+            font-family: Gill Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 17px;
+            
+            color: #00247D;
+            
+           }
+           #link2{
+            position: absolute;
+            width: 550px;
+            height: 21px;
+            left: 126px;
+            top: 293px;
+            
+            font-family: Gill Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 17px;
+            
+            color: #00247D;
+           }
+         
+              
+           :root {
+                  --mainColor: color: #00247D;
+                }
+       
+      
+
+       a {
+        color: var(--mainColor);
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: transparent;
+        text-decoration: none;
+        -webkit-text-stroke: 2px var(--mainColor);
+      }
+      
+      @supports not(-webkit-text-stroke: 2px red) {
+        a:hover {
+          text-shadow:
+            3px 3px 0 var(--mainColor),
+            -1px -1px 0 var(--mainColor),
+            1px -1px 0 var(--mainColor),
+            -1px 1px 0 var(--mainColor),
+            1px 1px 0 var(--mainColor);
+        }
+      }
+   }
+  
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
+
+      body{
+        background: url(../images/ipad/graphic.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+  
+    }
+    .g_{
+        background: url(../images/ipad/Rectangle\ 45.svg);
+        background-repeat: no-repeat;
+  position: absolute;
+        width: 428px;
+        height: 119px;
+        left: 341px;
+        top: 301px;
+        font-family: Gill Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+line-height: 119px;
+
+color: #FFFFFF
+        
+    }
+    .wheres{
+ position: absolute;
+width: 219px;
+height: 76px;
+left: 384px;
+top: 490px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+color: #00247D;
+
+    }
+
+    .desc_content{
+        position: absolute;
+width: 340px;
+height: 164px;
+left: 366px;
+top: 566px;
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #00247D;
+    }
+    #linkback{
+        position: absolute;
+        width: 100px;
+        height: 21px;
+        left:50px;
+        top: 271px;
+        
+        font-family: Gill Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+        
+        color: #00247D;
+        
+       }
+       #link1{
+        position: absolute;
+        width: 100px;
+        height: 21px;
+        left: 100px;
+        top: 271px;
+        
+        font-family: Gill Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+        
+        color: #00247D;
+       }
+       #link2{
+        position: absolute;
+        width: 550px;
+        height: 21px;
+        left: 218px;
+        top: 271px;
+        
+        font-family: Gill Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+        
+        color: #00247D;
+       }
+     
+          
+       :root {
+              --mainColor: color: #00247D;
+            }
+       a {
+        color: var(--mainColor);
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: transparent;
+        text-decoration: none;
+        -webkit-text-stroke: 2px var(--mainColor);
+      }
+      
+      @supports not(-webkit-text-stroke: 2px red) {
+        a:hover {
+          text-shadow:
+            3px 3px 0 var(--mainColor),
+            -1px -1px 0 var(--mainColor),
+            1px -1px 0 var(--mainColor),
+            -1px 1px 0 var(--mainColor),
+            1px 1px 0 var(--mainColor);
+        }
+      }
+    }
+  
+  
+    

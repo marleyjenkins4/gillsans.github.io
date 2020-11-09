@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+<link rel= "stylesheet" href= "./css/index.css">
+
+<title>Home</title>
+</head>
+<body>
+  <article class="graphic">
+    <div class= "containerA">
+
+    </div>
+      <div class= "row">
+      <div class= "container">
+          
+        <p id="numberelement1">1234567910</p>
+    
+        <p id="numberelement2">1234567910</p>
+            <p id="numberelement3">1234567910</p>
+
+      
+        <p id="numberelement4">1234567910</p>
+            </div>
+        </div>
+
+    
+          <h1 class="ml7">
+            <span class="text-wrapper">
+              <span class="letters"> THE MOST POPULAR TYPEFACE</span>
+            </span>
+          </h1>
+          <div class="word">
+      
+            <div class= "containerC">
+            
+   <span id= "g"> G</span><span id="ills"> ILLS </span>
+     <span id = "sans">SANS</span>
+   -->
+            </div>
+          </div>
+
+   <div class="qoute">
+    “IF YOU LOOK AFTER <span id="red"> GOODNESS AND TRUTH, BEAUTY</span> WILL TAKE CARE ITSELF.”
+   </div>
+        </div>
+
+
+        <p id= "link1"><a href="history.html">EXPLORE</a></p>
+        </article>
+        -->  
+<script>
+        var textWrapper = document.querySelector('.ml7 .letters');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+        
+        anime.timeline({loop: true})
+          .add({
+            targets: '.ml7 .letter',
+            translateY: ["1.1em", 0],
+            translateX: ["0.55em", 0],
+            translateZ: 0,
+            rotateZ: [180, 0],
+            duration: 750,
+            easing: "easeOutExpo",
+            delay: (el, i) => 50 * i
+          }).add({
+            targets: '.ml7',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+          });
+        </script>
+<script> 
+const spans = document.querySelectorAll(".word span");
+
+spans.forEach((span, idx) => {
+	span.addEventListener("click", (e) => {
+		e.target.classList.add("active");
+	});
+	span.addEventListener("animationend", (e) => {
+		e.target.classList.remove("active");
+	});
+
+	// Initial animation
+	setTimeout(() => {
+		span.classList.add("active");
+	}, 750 * (idx + 1));
+});
+</script>
+
+</body>
+</html>
