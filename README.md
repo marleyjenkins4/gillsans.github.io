@@ -4,5 +4,5 @@ This site was designed for my visuals communications class.
  I choose to focus on The Gill Sans Font and explore it’s history and importance.
                         
                         
-  Link to site: https://marleyjenkins4.github.io/gillsans.github.io/Project2/more_history.html                      
+  Link to site: https://marleyjenkins4.github.io/gillsans.github.io/Project2/index.html                    
                  
